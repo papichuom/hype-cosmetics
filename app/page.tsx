@@ -23,10 +23,10 @@ interface Product {
 const PRODUCTS: Product[] = [
   {
     id: 1,
-    name: "Velvet Noir",
-    price: 4500,
+    name: "Shiyaka Shadow ",
+    price: 2500,
     category: "Perfumes",
-    sizes: ["30ml", "50ml", "100ml"],
+    sizes: ["100ml"],
     badge: "Bestseller",
     description:
       "A rich oriental fragrance with dark oud, vanilla musk and sandalwood base notes.",
@@ -36,10 +36,10 @@ const PRODUCTS: Product[] = [
   },
   {
     id: 2,
-    name: "Rose Oud",
-    price: 6200,
+    name: "Empire Victor",
+    price: 2500,
     category: "Perfumes",
-    sizes: ["50ml", "100ml"],
+    sizes: ["100ml"],
     badge: "New",
     description:
       "Delicate Bulgarian rose layered over smoky oud and warm amber for a timeless signature.",
@@ -49,11 +49,11 @@ const PRODUCTS: Product[] = [
   },
 
   {
-    id: 5,
-    name: "Glow Facial Steamer",
-    price: 3800,
-    category: "Machines",
-    sizes: ["Standard"],
+    id: 3,
+    name: "Liquid Brun",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
     badge: "Bestseller",
     description:
       "Nano-ionic steam opens pores, deeply hydrates and preps skin for serums and masks.",
@@ -63,14 +63,14 @@ const PRODUCTS: Product[] = [
   },
 
   {
-    id: 9,
-    name: "Silky Straight Lace",
-    price: 12500,
-    category: "Wigs",
-    sizes: ['12"', '16"', '18"', '22"'],
+    id: 4,
+    name: "AURA pista Desert",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
     badge: "New",
     description:
-      "100% human hair silky straight wig with invisible HD lace front for a natural hairline.",
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
     image:
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
     rating: 4.9,
@@ -133,7 +133,7 @@ function Stars({ rating }: { rating: number }) {
 
 // ─── Product Card ─────────────────────────────────────────────────────────────
 function ProductCard({ product }: { product: Product }) {
-  const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
+  const [selectedSize] = useState(product.sizes[0]);
   const [hovered, setHovered] = useState(false);
   const [imgError, setImgError] = useState(false);
 
@@ -289,7 +289,6 @@ function ProductCard({ product }: { product: Product }) {
             {product.sizes.map((sz) => (
               <button
                 key={sz}
-                onClick={() => setSelectedSize(sz)}
                 style={{
                   padding: "4px 9px",
                   fontSize: 10,
@@ -477,25 +476,10 @@ export default function Home() {
         .cat-tab { white-space: nowrap; flex-shrink: 0; }
       `}</style>
 
-      {/* ── Announcement ──────────────────────────────────────────────── */}
-      <div
-        style={{
-          background: "#111827",
-          color: "#f3f4f6",
-          textAlign: "center",
-          padding: "9px 16px",
-          fontSize: 11,
-          letterSpacing: 1.5,
-          fontWeight: 500,
-        }}
-      >
-        📍 &nbsp; Baroda, Mombasa Kenya &nbsp;·&nbsp; +25419382075 &nbsp; ✦
-      </div>
-
       {/* ── Navbar ───────────────────────────────────────────────────── */}
       <header
         style={{
-          background: "#000",
+          background: "#fff",
           borderBottom: "1px solid #e5e7eb",
           position: "sticky",
           top: 0,
@@ -525,14 +509,19 @@ export default function Home() {
               flexShrink: 0,
             }}
           >
-            <Image
-              src="/logo.png" // change path if needed
-              alt="Hype Cosmetics"
-              className=""
-              width={100}
-              height={100}
-              style={{ height: 100, objectFit: "contain" }}
-            />
+            {" "}
+            <span
+              style={{
+                fontFamily: "'Playfair Display', Georgia, serif",
+                fontSize: 24,
+                fontWeight: 700,
+                color: "#111827",
+                letterSpacing: -0.2,
+              }}
+            >
+              {" "}
+              Hype Cosmetics
+            </span>{" "}
           </Link>
 
           {/* Desktop search */}
@@ -779,7 +768,7 @@ export default function Home() {
       </header>
 
       {/* ── Hero Banner ───────────────────────────────────────────────── */}
-      <section
+      {/*<section
         style={{ background: "#fff", borderBottom: "1px solid #e5e7eb" }}
       >
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "16px 16px" }}>
@@ -792,7 +781,7 @@ export default function Home() {
               background: "#111827",
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+           
             <img
               key={slide}
               src={current.image}
@@ -899,7 +888,7 @@ export default function Home() {
               </button>
             </div>
 
-            {/* Dots */}
+           
             <div
               style={{
                 position: "absolute",
@@ -969,10 +958,11 @@ export default function Home() {
                 {label}
               </button>
             ))}
-              */}
+             
           </div>
         </div>
       </section>
+
 
       {/* ── Popular Categories ────────────────────────────────────────── 
       <section
@@ -1094,7 +1084,7 @@ export default function Home() {
                 marginBottom: 5,
               }}
             >
-              Our Collection
+              Our Catalogue
             </p>
             <h2
               style={{
@@ -1104,7 +1094,7 @@ export default function Home() {
                 color: "#111827",
               }}
             >
-              {activeCategory === "All" ? "All Products" : activeCategory}
+              {activeCategory === "All" ? "Featured Products" : activeCategory}
             </h2>
           </div>
 
@@ -1201,7 +1191,7 @@ export default function Home() {
         )}
       </section>
 
-      {/* ── Features ─────────────────────────────────────────────────── */}
+      {/* ── Features ─────────────────────────────────────────────────── 
       <section
         style={{
           background: "#fff",
@@ -1257,24 +1247,21 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Footer ───────────────────────────────────────────────────── */}
-      <footer style={{ background: "#0f172a", padding: "48px 16px 28px" }}>
-        <div style={{ maxWidth: 1280, margin: "0 auto" }}>
-          <div
-            style={{
-              borderTop: "1px solid #1e293b",
-              paddingTop: 20,
-              display: "flex",
-              justifyContent: "space-between",
-              flexWrap: "wrap",
-              gap: 8,
-            }}
-          >
-            <p style={{ fontSize: 11, color: "#4b5563" }}>
-              © 2026 Hype Cosmetics. All rights reserved.
-            </p>
-            <p style={{ fontSize: 11, color: "#4b5563" }}>thinkDigital.ke</p>
-          </div>
+      {/* ── Footer ─────────────────────────────────────────────────────  */}
+      <footer style={{ background: "#fff", padding: "48px 16px 28px" }}>
+        {/* ── Announcement ──────────────────────────────────────────────── */}
+        <div
+          style={{
+            background: "#fff",
+            color: "#000",
+            textAlign: "center",
+            padding: "9px 16px",
+            fontSize: 11,
+            letterSpacing: 1.5,
+            fontWeight: 500,
+          }}
+        >
+          📍 &nbsp; Baroda, Mombasa Kenya &nbsp;·&nbsp; +25419382075 &nbsp; ✦
         </div>
       </footer>
     </div>
