@@ -460,7 +460,7 @@ export default function Home() {
 
         @media (max-width: 480px) {
           .product-grid { grid-template-columns: 1fr; }
-          .features-grid { grid-template-columns: 1fr; }
+          .features-grid { grid-template-columns: 3fr; }
           .category-grid { grid-template-columns: 1fr; }
         }
 
@@ -528,7 +528,7 @@ export default function Home() {
             <Image
               src="/logo.png" // change path if needed
               alt="Hype Cosmetics"
-              className="hidden lg:block"
+              className=""
               width={100}
               height={100}
               style={{ height: 100, objectFit: "contain" }}
@@ -601,7 +601,7 @@ export default function Home() {
                 background: "none",
                 border: "none",
                 padding: "8px",
-                color: "#374151",
+                color: "#fff",
                 display: "flex",
                 alignItems: "center",
               }}
@@ -629,7 +629,7 @@ export default function Home() {
                 background: "none",
                 border: "none",
                 padding: "8px",
-                color: "#374151",
+                color: "#fff",
                 display: "flex",
                 flexDirection: "column",
                 gap: 5,
@@ -640,7 +640,7 @@ export default function Home() {
                   display: "block",
                   width: 22,
                   height: 2,
-                  background: menuOpen ? "transparent" : "#374151",
+                  background: menuOpen ? "transparent" : "#fff",
                   transition: "all 0.2s",
                   transform: menuOpen
                     ? "rotate(45deg) translate(5px,5px)"
@@ -652,7 +652,7 @@ export default function Home() {
                   display: "block",
                   width: 22,
                   height: 2,
-                  background: "#374151",
+                  background: "#fff",
                   transition: "all 0.2s",
                   transform: menuOpen ? "rotate(-45deg)" : "none",
                 }}
@@ -663,7 +663,7 @@ export default function Home() {
                     display: "block",
                     width: 14,
                     height: 2,
-                    background: "#374151",
+                    background: "#fff",
                   }}
                 />
               )}
@@ -928,7 +928,7 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Arrows — hidden on small screens */}
+            {/* Arrows — hidden on small screens 
             {[
               { label: "‹", dir: -1, side: { left: 12 } },
               { label: "›", dir: 1, side: { right: 12 } },
@@ -952,7 +952,7 @@ export default function Home() {
                   border: "1px solid rgba(255,255,255,0.25)",
                   color: "#fff",
                   fontSize: 20,
-                  display: "flex",
+                  display: "flex hidden",
                   alignItems: "center",
                   justifyContent: "center",
                   transition: "background 0.2s",
@@ -969,6 +969,7 @@ export default function Home() {
                 {label}
               </button>
             ))}
+              */}
           </div>
         </div>
       </section>
@@ -1216,10 +1217,7 @@ export default function Home() {
                 icon: "🚚",
                 title: "Delivery Countrywide",
               },
-              {
-                icon: "↩️",
-                title: "Free Returns",
-              },
+
               {
                 icon: "💬",
                 title: "24/7 Support",
