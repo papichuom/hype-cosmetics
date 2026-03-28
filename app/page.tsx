@@ -75,8 +75,568 @@ const PRODUCTS: Product[] = [
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
     rating: 4.9,
   },
-];
+  {
+    id: 5,
+    name: "Rose conture",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 6,
+    name: "IBHAAR",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
 
+  {
+    id: 7,
+    name: "Pure mask",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 8,
+    name: "Jameel",
+    price: 1000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 9,
+    name: "zayaan Gold",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 10,
+    name: "Kismet Magic",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 11,
+    name: "Kayaan silver",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 12,
+    name: "Kayali Boujee Marshmallow",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 13,
+    name: "Marshmallow",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 14,
+    name: "Khair confection",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 15,
+    name: "Khair fusion",
+    price: 1800,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 16,
+    name: "Princess of Arabia",
+    price: 1600,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 17,
+    name: "Berries Weekend",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 18,
+    name: "Bint Hooran Rose passion",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 19,
+    name: "Mousuf Wardi",
+    price: 1000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 20,
+    name: "Mousuf Brown",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 21,
+    name: "9PM",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 22,
+    name: "Tharwah",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 23,
+    name: "Fakhar Lattafa",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 24,
+    name: "The kingdom",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 25,
+    name: "OUD Mood",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 26,
+    name: "Hayati Women",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 27,
+    name: "Exotic",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 28,
+    name: "Feelings perfume",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 29,
+    name: "Ramz",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 30,
+    name: "Jazzab",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 31,
+    name: "Asad",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 32,
+    name: "Khamra",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 33,
+    name: "Cloud candy",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 34,
+    name: "Layaan lataffa",
+    price: 2600,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 35,
+    name: "Haya",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 36,
+    name: "Yara",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 37,
+    name: "Brown Orchid",
+    price: 1500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 38,
+    name: "Magnate",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 39,
+    name: "Mayat",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 40,
+    name: "Island",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 41,
+    name: "Cream velvet",
+    price: 2200,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+
+  {
+    id: 42,
+    name: "Badee AL OUD Red",
+    price: 3000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 43,
+    name: "Ana Abiyedh Coral",
+    price: 1800,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 44,
+    name: "Elysi",
+    price: 2500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 45,
+    name: "Nyla",
+    price: 3500,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 46,
+    name: "Caffe latte",
+    price: 2800,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+  {
+    id: 47,
+    name: "Sauvage",
+    price: 2000,
+    category: "Perfumes",
+    sizes: ["100ml"],
+    badge: "New",
+    description:
+      "A warm and inviting fragrance with notes of vanilla, amber, and sandalwood.",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&q=80",
+    rating: 4.9,
+  },
+];
 const CATEGORIES: Category[] = ["All", "Perfumes", "Machines", "Wigs"];
 
 const SLIDES = [
